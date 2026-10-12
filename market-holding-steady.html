@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Market Holding Steady · Coffee & Crypto — New Money Moondays</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a1628;--bg2:#0f1f38;--bg3:#132647;--bd:#24365a;--gold:#d4a537;--gold2:#f0c75e;--txt:#e8edf5;--mu:#8fa0bf;--up:#34d399;--dn:#f87171;--blue:#7dd3fc}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:Barlow,system-ui,sans-serif;font-size:17px;line-height:1.55;background-image:radial-gradient(900px 400px at 85% -5%,rgba(212,165,55,.10),transparent 60%)}
+a{color:var(--gold2)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 18px}
+.show{display:flex;flex-wrap:wrap;align-items:center;gap:16px 22px;padding:18px 0 14px}
+.logo{width:64px;height:64px;border-radius:50%;background:linear-gradient(145deg,var(--gold2),var(--gold));color:#0a1628;display:flex;align-items:center;justify-content:center;font:700 34px Barlow,system-ui,sans-serif;box-shadow:0 0 0 4px rgba(212,165,55,.2)}
+.live{display:inline-flex;align-items:center;gap:7px;font:500 12px 'DM Mono',monospace;letter-spacing:1px;color:#fca5a5;background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.4);padding:3px 10px;border-radius:999px}
+.live i{width:8px;height:8px;border-radius:50%;background:#f87171;animation:pl 1.4s infinite}
+@keyframes pl{50%{opacity:.25}}
+.show h1{font:400 clamp(34px,6vw,54px)/1 'Bebas Neue',sans-serif;letter-spacing:2px;margin:6px 0 0;color:var(--gold2)}
+.show .sub{color:var(--mu);font-size:15px}
+.topic{margin-left:auto;background:linear-gradient(160deg,#1a2c4f,#12234a);border:1px solid var(--gold);border-radius:12px;padding:10px 18px}
+.topic small{display:block;font:11px 'DM Mono',monospace;letter-spacing:1.5px;color:var(--mu);text-transform:uppercase}
+.topic b{font:400 26px 'Bebas Neue',sans-serif;letter-spacing:1.5px;color:var(--gold2)}
+nav{position:sticky;top:0;z-index:20;background:rgba(10,22,40,.94);backdrop-filter:blur(8px);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}
+nav .wrap{display:flex;gap:4px;overflow-x:auto;padding-top:6px;padding-bottom:6px}
+nav a{white-space:nowrap;text-decoration:none;color:var(--mu);font:600 14px Barlow,system-ui,sans-serif;padding:8px 13px;border-radius:8px}
+nav a:hover{color:var(--txt);background:var(--bg2)}
+nav a.on{background:var(--gold);color:#0a1628}
+nav a.ext::after{content:' ↗';opacity:.6}
+h2{font:400 34px 'Bebas Neue',sans-serif;letter-spacing:1.5px;color:var(--gold2);margin:0 0 6px}
+h3{font:600 19px Barlow,system-ui,sans-serif;margin:0 0 6px}
+.eyebrow{font:500 12px 'DM Mono',monospace;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin:30px 0 4px}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:14px;padding:18px 20px}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.mono{font-family:'DM Mono',monospace}
+.mu{color:var(--mu)}.up{color:var(--up)}.dn{color:var(--dn)}.gold{color:var(--gold2)}
+.tag{display:inline-block;font:500 11px 'DM Mono',monospace;letter-spacing:1px;text-transform:uppercase;color:#0a1628;background:var(--gold);padding:2px 9px;border-radius:999px}
+.tag.ln{background:none;color:var(--gold2);border:1px solid var(--gold)}
+.btn,button.btn{display:inline-block;background:var(--gold);color:#0a1628;border:0;border-radius:9px;padding:10px 18px;font:700 15px Barlow,system-ui,sans-serif;text-decoration:none;cursor:pointer}
+.btn:hover{background:var(--gold2)}
+.btn.ghost{background:none;color:var(--gold2);border:1px solid var(--gold)}
+label{font:12px 'DM Mono',monospace;color:var(--mu);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:4px}
+input,select{width:100%;background:#0a1628;border:1px solid var(--bd);color:var(--txt);border-radius:9px;padding:10px 12px;font:16px 'DM Mono',monospace}
+input:focus,select:focus{outline:2px solid var(--gold);outline-offset:-1px}
+.big{font:400 44px/1 'Bebas Neue',sans-serif;letter-spacing:1px}
+.kv{display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-bottom:1px solid rgba(36,54,90,.6);font-size:15px}
+.kv:last-child{border:0}.kv b{font-family:'DM Mono',monospace;font-weight:500;text-align:right}
+.src{font-size:13px;color:var(--mu)}
+.src a{color:var(--mu)}
+footer{margin:46px 0 30px;padding-top:16px;border-top:1px solid var(--bd);color:var(--mu);font-size:13px}
+.note{background:rgba(212,165,55,.08);border:1px solid rgba(212,165,55,.35);border-radius:10px;padding:10px 14px;font-size:14px;color:#e9d9a8}
+@media(max-width:700px){.topic{margin-left:0;width:100%}body{font-size:16px}}
+
+.hero{display:grid;gap:14px;grid-template-columns:1.1fr 1fr}
+@media(max-width:820px){.hero{grid-template-columns:1fr}}
+.px{font:400 clamp(54px,9vw,88px)/1 'Bebas Neue',sans-serif;letter-spacing:2px;color:var(--txt)}
+.gauge{position:relative;height:16px;border-radius:8px;background:linear-gradient(90deg,#7f1d1d,#b45309 35%,#166534);margin:34px 0 8px}
+.gauge .mk{position:absolute;top:-6px;width:4px;height:28px;background:#fff;border-radius:2px;transform:translateX(-2px)}
+.gauge .lb{position:absolute;top:-24px;font:11px 'DM Mono',monospace;color:var(--mu);transform:translateX(-50%);white-space:nowrap}
+.cal{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.cal div{background:#0a1628;border:1px solid var(--bd);border-radius:10px;padding:10px 12px}
+.cal small{font:11px 'DM Mono',monospace;color:var(--gold);letter-spacing:1px;text-transform:uppercase}
+.cal b{display:block;font-size:17px}
+.story{margin-top:10px}
+.story .num{font:400 56px/1 'Bebas Neue',sans-serif;color:var(--gold);opacity:.9}
+.qs{margin:10px 0 0;padding:12px 16px 12px 34px;background:rgba(125,211,252,.06);border-left:3px solid var(--blue);border-radius:0 10px 10px 0}
+.qs li{margin:3px 0}
+.chk li{margin:6px 0}
+ul.tight{padding-left:20px;margin:6px 0}
+.bar{height:12px;border-radius:6px;background:#0a1628;border:1px solid var(--bd);overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2))}
+</style></head><body><header class="wrap"><div class="show">
+<div class="logo">₿</div>
+<div><span class="live"><i></i>LIVE ON YOUTUBE</span><h1>Coffee &amp; Crypto</h1><div class="sub">with Natoshi Stackamoto · <b style="color:var(--gold2)">New Money Moondays</b></div></div>
+<div class="topic"><small>Today's Topic</small><b>Market Holding Steady</b></div></div></header>
+<nav><div class="wrap"><a href="index.html">Home</a><a href="market-holding-steady.html" class="on">News</a><a href="bws-dca-calculator.html">BWS DCA</a><a href="satoshi-converter.html">Satoshi</a><a href="yield-farm-trading.html">Yield Farm Trading</a><a href="https://blockwallstreethub.github.io/CryptoAlerts/" target="_blank" rel="noopener" class="ext">Crypto Alerts</a><a href="https://blockwallstreethub.github.io/BWSHeatMap/" target="_blank" rel="noopener" class="ext">Heat Map</a><a href="bitcoin-vs-everything.html">BTC vs Everything</a></div></nav>
+<main class="wrap">
+<div class="eyebrow">New Money Moondays · Monday, Oct 12, 2026</div>
+<h2>Market Holding Steady</h2>
+<p class="mu" style="margin-top:0">Bitcoin defended its line in the sand at the weekly close, the big inflation prints land this week, Strategy is still stacking (just smaller), and France has become the world's most dangerous place to be known as a Bitcoiner. Three stories, one live price, and the numbers to talk through them.</p>
+
+<!-- ============ STORY 1 ============ -->
+<div class="eyebrow">Story 1</div>
+<div class="story card">
+<div style="display:flex;gap:16px;flex-wrap:wrap;align-items:baseline"><span class="num">01</span><div><h2 style="margin:0">Support holds ahead of US CPI</h2><span class="tag">Market</span> <span class="tag ln">Week ahead</span></div></div>
+<div class="hero" style="margin-top:14px">
+  <div class="card" style="background:#0a1628">
+    <div class="mu mono" style="font-size:12px;letter-spacing:1px">BITCOIN · LIVE</div>
+    <div class="px" id="px">$—</div>
+    <div class="mu mono" style="font-size:12px" id="src">connecting…</div>
+    <div class="gauge" id="gauge"><span class="lb" style="left:0">$60K</span><span class="lb" style="left:50%">$82.5K support</span><span class="lb" style="left:100%">$105K</span><span class="mk" id="mk" style="left:50%"></span></div>
+    <div class="kv"><span>Distance above weekly support ($82,500)</span><b id="dsup">—</b></div>
+    <div class="kv"><span>Weekly close (Bitstamp)</span><b>≈ $83,700</b></div>
+    <div class="kv"><span>Week change</span><b class="dn">−3.2%</b></div>
+  </div>
+  <div>
+    <h3>What happened</h3>
+    <ul class="tight">
+      <li>BTC <b>held about $82,500</b>, the key weekly support, at Sunday's weekly close. Bitstamp had the close near $83,700 after a 3.2% weekly drop.</li>
+      <li>A weekly close <i>below</i> $82,500 risked sending price back into the 2026 range of <b>$60K–$80K</b>. That didn't happen.</li>
+      <li>Analyst Rekt Capital: a weekly close above $82,500 counts as a "successful" support retest. Aksel Kibar calls it a possible <b>"hard retest"</b>, like the S&amp;P 500's repeated retests of 7,300 and 7,600.</li>
+    </ul>
+    <h3 style="margin-top:12px">Three things to know this week</h3>
+    <ol class="tight"><li><b>Inflation data</b> — CPI Wednesday, PPI Thursday: the week's volatility catalysts.</li><li><b>Oil</b> — WTI dipped under $90 then recovered to about $91.50; diesel averaged $6.26/gal, off the $6.52 record from Sept 22.</li><li><b>Weekly support</b> — the $82.5K line held.</li></ol>
+  </div>
+</div>
+<h3 style="margin-top:18px">This week's calendar</h3>
+<div class="cal">
+  <div><small>Wed</small><b>September CPI</b><span class="mu">Expected 3.7% YoY (Aug: 3.4%) — Middle East action and fuel prices</span></div>
+  <div><small>Thu</small><b>PPI</b><span class="mu">Expected +0.3% MoM (Aug: +0.2%)</span></div>
+  <div><small>Fri</small><b>Fed Chair Warsh</b><span class="mu">Speaks with IMF's Georgieva in Bangkok</span></div>
+  <div><small>Oct 28</small><b>FOMC</b><span class="mu">18.8% odds of a 25bp hike from 3.75–4.00%; December hike odds 70.6%</span></div>
+</div>
+<div class="grid g3" style="margin-top:14px">
+  <div class="card"><div class="mu mono" style="font-size:12px">US 10-YEAR</div><div class="big">5.24%</div><div class="src">Eased off 24-year highs</div></div>
+  <div class="card"><div class="mu mono" style="font-size:12px">US 30-YEAR</div><div class="big">5.60%</div><div class="src">Eased off 24-year highs</div></div>
+  <div class="card"><div class="mu mono" style="font-size:12px">S&amp;P 500 FUTURES</div><div class="big up">+0.25%</div><div class="src">~30 points below all-time highs</div></div>
+</div>
+<p class="note" style="margin-top:14px"><b>Why "holding steady" matters:</b> a cooler CPI would be a near-term positive for risk assets (KCM Trade's Tim Waterer). A hotter one, with the Fed already priced to hike, is what tests that $82.5K floor. Know your level before the print, not after.</p>
+<ol class="qs"><li>Does a hold at support mean the pullback is over, or just paused until CPI?</li><li>Rates near 5.2% and a Fed leaning toward hikes: why is Bitcoin holding anyway?</li></ol>
+<div class="src" style="margin-top:10px">Source: <a href="https://cointelegraph.com/markets/btc-price-support-holds-ahead-of-us-cpi-data-three-things-to-know-in-bitcoin-this-week" target="_blank" rel="noopener">Cointelegraph — BTC price support holds ahead of US CPI data</a></div>
+</div>
+
+<!-- ============ STORY 2 ============ -->
+<div class="eyebrow">Story 2</div>
+<div class="story card">
+<div style="display:flex;gap:16px;flex-wrap:wrap;align-items:baseline"><span class="num">02</span><div><h2 style="margin:0">Strategy buys 250 BTC — its smallest buy of 2026</h2><span class="tag">Treasuries</span> <span class="tag ln">Saylor</span></div></div>
+<p>After Michael Saylor posted <i>"There's always room for more orange"</i> on Sunday, Strategy announced Monday that it bought <b>250 BTC for about $21.5M</b> between Oct 5 and Oct 11, at an average of <b>$86,194</b> per coin including fees. StockTwits flagged it as the company's smallest purchase of 2026.</p>
+<div class="grid g2">
+  <div class="card" style="background:#0a1628">
+    <h3>The stack</h3>
+    <div class="kv"><span>Total holdings</span><b>848,250 BTC</b></div>
+    <div class="kv"><span>Share of 21M supply</span><b>&gt; 4%</b></div>
+    <div class="kv"><span>Total cost</span><b>≈ $64.0B</b></div>
+    <div class="kv"><span>Average cost per BTC</span><b>$75,444</b></div>
+    <div class="kv"><span>Value at today's price</span><b id="stVal">—</b></div>
+    <div class="kv"><span>Unrealized gain vs cost</span><b id="stPl">—</b></div>
+    <div class="kv"><span>Price vs this week's buy ($86,194)</span><b id="stBuy">—</b></div>
+  </div>
+  <div class="card" style="background:#0a1628">
+    <h3>How they paid</h3>
+    <div class="kv"><span>Sold 125,183 MSTR shares (ATM)</span><b>$21.0M</b></div>
+    <div class="kv"><span>USD cash</span><b>$0.5M</b></div>
+    <h3 style="margin-top:12px">The other headline: the STRC buyback</h3>
+    <div class="kv"><span>STRC shares repurchased</span><b>1,932,145</b></div>
+    <div class="kv"><span>Cost</span><b>$192.4M</b></div>
+    <div class="kv"><span>Avg price</span><b>≈ $99.58</b></div>
+    <div class="kv"><span>Prior week</span><b>$176.3M</b></div>
+    <div class="kv"><span>Left in buyback program</span><b>$354.8M</b></div>
+    <div class="bar"><i style="width:65%"></i></div><div class="src">$354.8M remaining after the $192.4M executed this week</div>
+  </div>
+</div>
+<p style="margin-bottom:6px"><b>The read:</b> Strategy spent roughly <b>9× more</b> buying back its own preferred stock ($192.4M) than buying Bitcoin ($21.5M) this week. Reserves as of Oct 11: <b>$4.88B USD reserve</b>, $640.5M cash, and $18.8B of MSTR still available to sell. The press release didn't say how the buybacks were funded or why.</p>
+<ol class="qs"><li>Is a $21M week a pause, a pivot, or just the cost of defending its preferred shares?</li><li>Their average cost is $75,444 and the price is above it. What happens to the story if BTC loses $82.5K?</li></ol>
+<div class="src" style="margin-top:10px">Sources: <a href="https://cointelegraph.com/news/michael-saylor-strategy-250-btc-buy" target="_blank" rel="noopener">Cointelegraph</a> · <a href="https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275" target="_blank" rel="noopener">The Block</a> · <a href="https://bitcointreasuries.net/news/strategy-buys-250-btc-repurchases-dollar192m-of-strc" target="_blank" rel="noopener">Bitcoin Treasuries</a> · <a href="https://stocktwits.com/news-articles/markets/equity/michael-saylor-backed-strategy-smallest-bitcoin-purchase-of-2026/cZxIau8RB8P" target="_blank" rel="noopener">StockTwits</a></div>
+</div>
+
+<!-- ============ STORY 3 ============ -->
+<div class="eyebrow">Story 3</div>
+<div class="story card">
+<div style="display:flex;gap:16px;flex-wrap:wrap;align-items:baseline"><span class="num">03</span><div><h2 style="margin:0">France: 90 attacks on Bitcoiners in 7 months</h2><span class="tag">Security</span> <span class="tag ln">Self-custody</span></div></div>
+<p>Cointelegraph Magazine reports France is now the world's most dangerous place for crypto holders. The French Interior Ministry logged <b>90 crypto-related cases</b> (kidnapping, abduction, extortion, threats, violent theft) from Jan 1 to mid-August 2026, about <b>one every 2.5 days</b>. The ministry only began recording these on Jan 1, 2026, so there is no 2025 comparison.</p>
+<div class="grid g3">
+  <div class="card" style="background:#0a1628"><div class="big gold">90</div><div class="src">cases, Jan – mid-Aug 2026 (Interior Ministry)</div></div>
+  <div class="card" style="background:#0a1628"><div class="big gold">223</div><div class="src">arrests · 126 people jailed Jan–Jul</div></div>
+  <div class="card" style="background:#0a1628"><div class="big gold">&gt; 40%</div><div class="src">of violent cases involve relatives or acquaintances (25–30% globally)</div></div>
+</div>
+<div class="grid g2" style="margin-top:14px">
+  <div class="card" style="background:#0a1628">
+    <h3>Why it's happening</h3>
+    <ul class="tight">
+      <li>Chainalysis' Eric Jardine says the surge is "very likely" tied to a <b>significant data breach</b>. A 2024 French tax-authority leak (a Paris-area official) may have started it; attacks surged from late Nov 2024.</li>
+      <li>A January 2026 breach at crypto tax firm <b>Waltio</b> exposed about 50,000 users.</li>
+      <li>Attackers do recon through <b>social media, blockchain analysis, leaked data and insider tips</b>.</li>
+      <li>Bull Bitcoin's Francis Pouliot argues the EU's <b>DAC8</b> reporting rules raise the risk for holders.</li>
+    </ul>
+  </div>
+  <div class="card" style="background:#0a1628">
+    <h3>Counts differ by tracker</h3>
+    <div class="kv"><span>French Interior Ministry</span><b>90</b></div>
+    <div class="kv"><span>Gart.io (France, YTD)</span><b>73</b></div>
+    <div class="kv"><span>Chainalysis (public incidents)</span><b>30</b></div>
+    <div class="kv"><span>Gart.io — USA / UK</span><b>66 / 27</b></div>
+    <div class="kv"><span>Jameson Lopp's directory, 2014–2026</span><b>365 in 60 countries</b></div>
+    <div class="src" style="margin-top:6px">Spread beyond Paris to Strasbourg, Marseille, Grenoble, Toulouse and Nantes. 93% of victims with known residency were French. Investigations run through JUNALCO.</div>
+  </div>
+</div>
+<div class="card" style="background:rgba(212,165,55,.07);border-color:rgba(212,165,55,.4);margin-top:14px">
+  <h3 style="color:var(--gold2)">BWS takeaway: the weak link isn't your hardware wallet, it's who knows you hold</h3>
+  <p style="margin:4px 0 8px">The article's point: seed phrases and hardware wallets don't help if attackers already know who you are and where you live. Practical privacy habits to talk through on the show:</p>
+  <ul class="tight chk">
+    <li><b>Don't advertise.</b> No holdings, gains or wallet screenshots on social media. Treat "I'm a Bitcoiner" as private information.</li>
+    <li><b>Know who holds your data.</b> Exchanges, tax software and filings are breach targets. Share the minimum, and know what each service has on you.</li>
+    <li><b>Keep the home address out of it.</b> Use a P.O. box or business address where you can; separate crypto-related accounts from your home details.</li>
+    <li><b>Keep the "everything" out of one place.</b> Spread access (multisig, time-locks, and trusted co-signers in different locations) so no single person can be forced to drain it.</li>
+    <li><b>Keep your inner circle small.</b> Relatives and acquaintances are over 40% of cases in France.</li>
+  </ul>
+</div>
+<ol class="qs"><li>Does KYC and tax reporting make holders safer or more exposed?</li><li>What's your personal privacy rule that you haven't posted online?</li></ol>
+<div class="src" style="margin-top:10px">Source: <a href="https://cointelegraph.com/magazine/france-is-worlds-most-dangerous-place-for-bitcoiners-90-attacks-in-7-months" target="_blank" rel="noopener">Cointelegraph Magazine — France is the world's most dangerous place for Bitcoiners</a> (Oct 9, 2026)</div>
+</div>
+
+<div class="eyebrow">Keep going</div>
+<div class="grid g3">
+  <a class="card" href="yield-farm-trading.html" style="text-decoration:none;color:inherit"><span class="tag">Live</span><h3 style="margin-top:8px">Yield Farm Trading</h3><span class="mu">Our two WBTC/WETH positions, live.</span></a>
+  <a class="card" href="bws-dca-calculator.html" style="text-decoration:none;color:inherit"><span class="tag ln">Calculator</span><h3 style="margin-top:8px">BWS DCA Calculator</h3><span class="mu">Stack through the chop, in your currency.</span></a>
+  <a class="card" href="https://blockwallstreethub.github.io/CryptoAlerts/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><span class="tag ln">Signals</span><h3 style="margin-top:8px">Crypto Alerts ↗</h3><span class="mu">Daily / weekly / monthly TA signals.</span></a>
+</div>
+</main>
+<footer><div class="wrap" style="padding:0">Educational content only — not financial advice. Prices, rates and figures change quickly; verify before acting. Block Wall Street · Coffee &amp; Crypto · New Money Moondays.</div></footer><script>
+function startBtcFeed(onTick){
+  let last=0,ws=null,poll=null,src='',dead=false,kr=false;
+  const push=(p,s)=>{if(!(p>0))return;last=Date.now();src=s;onTick(p,s,last)};
+  const startPoll=()=>{if(poll)return;const f=async()=>{try{const j=await (await fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot')).json();push(+j.data.amount,'Coinbase (5s refresh)')}catch(e){}};f();poll=setInterval(f,5000)};
+  function openCb(){
+    try{ws=new WebSocket('wss://ws-feed.exchange.coinbase.com');
+      ws.onopen=()=>ws.send(JSON.stringify({type:'subscribe',product_ids:['BTC-USD'],channels:['ticker']}));
+      ws.onmessage=e=>{try{const m=JSON.parse(e.data);if(m.type==='ticker')push(+m.price,'Coinbase live')}catch(_){}};
+      ws.onerror=()=>{};ws.onclose=()=>{if(!dead)openKr()};
+    }catch(e){openKr()}
+  }
+  function openKr(){
+    if(kr){startPoll();return}kr=true;
+    try{ws=new WebSocket('wss://ws.kraken.com');
+      ws.onopen=()=>ws.send(JSON.stringify({event:'subscribe',pair:['XBT/USD'],subscription:{name:'ticker'}}));
+      ws.onmessage=e=>{try{const m=JSON.parse(e.data);if(Array.isArray(m)&&m[1]&&m[1].c)push(+m[1].c[0],'Kraken live')}catch(_){}};
+      ws.onerror=()=>{};ws.onclose=()=>{if(!dead)startPoll()};
+    }catch(e){startPoll()}
+  }
+  openCb();setTimeout(()=>{if(!last)startPoll()},6000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-last>15000){try{ws&&ws.close()}catch(_){}kr=false;openCb()}});
+  return {stale:()=>Date.now()-last};
+}
+const fmtUSD=v=>v==null||isNaN(v)?'—':v.toLocaleString(undefined,{style:'currency',currency:'USD',maximumFractionDigits:v>=100?0:2});
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const SUP=82500,HOLD=848250,COST=75444,BUY=86194;
+const pct=(a,b)=>(a/b-1)*100,sg=v=>(v>=0?'+':'')+v.toFixed(1)+'%';
+function gotTick(p,s){
+  document.getElementById('px').textContent=fmtUSD(p);
+  document.getElementById('src').textContent=s+' · '+new Date().toLocaleTimeString();
+  const d=pct(p,SUP),el=document.getElementById('dsup');el.textContent=sg(d)+'  ('+fmtUSD(p-SUP)+')';el.className=d>=0?'up':'dn';
+  const pos=Math.max(2,Math.min(98,(p-60000)/(105000-60000)*100));document.getElementById('mk').style.left=pos+'%';
+  const v=HOLD*p;document.getElementById('stVal').textContent='$'+(v/1e9).toFixed(1)+'B';
+  const g=pct(p,COST),e=document.getElementById('stPl');e.textContent=sg(g)+'  (≈ $'+((v-HOLD*COST)/1e9).toFixed(1)+'B)';e.className=g>=0?'up':'dn';
+  const b=pct(p,BUY),f=document.getElementById('stBuy');f.textContent=sg(b);f.className=b>=0?'up':'dn';
+}
+startBtcFeed(gotTick);
+</script></body></html>
